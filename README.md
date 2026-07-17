@@ -70,62 +70,16 @@ Ambulance-Report-System
 │
 ├── mysql-connector-j-9.6.0.jar
 │
-├── screenshots
 │
 └── README.md
 ```
 
 ---
 
-## 📸 Screenshots
 
-### 🔐 Login Screen
 
-> Add your screenshot here
 
-```
-screenshots/login.png
-```
 
----
-
-### 🏠 Dashboard
-
-> Add your screenshot here
-
-```
-screenshots/dashboard.png
-```
-
----
-
-### 👤 Patient Module
-
-> Add your screenshot here
-
-```
-screenshots/patient.png
-```
-
----
-
-### 🩺 Assessment Module
-
-> Add your screenshot here
-
-```
-screenshots/assessment.png
-```
-
----
-
-### 🚑 Emergency Response Module
-
-> Add your screenshot here
-
-```
-screenshots/response.png
-```
 
 ---
 
@@ -209,6 +163,30 @@ This project helped me improve my skills in:
 - Software Engineering Principles
 
 ---
+
+# 📑 Project Presentation
+
+A detailed presentation describing the project's objectives, system architecture, database design, implementation, modules, and future enhancements is included in this repository.
+
+📥 **Download the presentation here:**
+
+**➡️ [Ambulance Report System Presentation](docs/Ambulance_Report_System_Presentation.pptx)**
+
+The presentation includes:
+
+- Project Introduction
+- Problem Statement
+- Objectives
+- Existing vs Proposed System
+- System Architecture
+- Database Design
+- Class Diagram
+- Module Descriptions
+- GUI Screenshots
+- Technologies Used
+- Testing
+- Future Scope
+- Conclusion
 
 ## 🚀 Future Improvements
 
