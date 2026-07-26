@@ -1,123 +1,129 @@
 # 🚑 Ambulance Report System
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
-![JDBC](https://img.shields.io/badge/JDBC-Connectivity-success?style=for-the-badge)
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
 ![Swing](https://img.shields.io/badge/Java-Swing-red?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
-![License](https://img.shields.io/badge/License-Educational-green?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![JDBC](https://img.shields.io/badge/JDBC-Database-success?style=for-the-badge)
+![OOP](https://img.shields.io/badge/OOP-Design-blueviolet?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 
-A desktop-based **Ambulance Report System** developed using **Java Swing**, **JDBC**, and **MySQL** to manage ambulance operations, patient records, medical history, assessments, and emergency response details through an intuitive graphical user interface.
-
----
-
-## 📌 Project Overview
-
-The Ambulance Report System is designed to digitize ambulance reporting and patient management. Instead of maintaining paper records, users can securely store and manage emergency case information in a MySQL database through an easy-to-use desktop application.
-
-This project demonstrates practical implementation of:
-
-- Object-Oriented Programming (OOP)
-- Java Swing GUI Development
-- JDBC Database Connectivity
-- MySQL Database Management
-- CRUD Operations
-- DAO Design Pattern
+</p>
 
 ---
 
-## ✨ Features
+# Overview
 
-- 🔐 Login Authentication
-- 👤 Patient Registration
-- 🩺 Patient Assessment
-- 📋 Medical History Management
-- 🚑 Emergency Response Records
-- 💾 MySQL Database Integration
-- 🔍 Search Records
-- ➕ Add Records
-- ✏️ Update Records
-- ❌ Delete Records
-- 🖥 User-Friendly Interface
+The **Ambulance Report System** is a desktop-based healthcare management application developed using **Java Swing**, **JDBC**, and **MySQL**. It streamlines ambulance reporting by replacing manual paperwork with a structured digital system for recording patient information, medical history, assessments, and emergency response details.
+
+The project follows **Object-Oriented Programming principles** and adopts the **DAO (Data Access Object) design pattern** to separate business logic from database operations, resulting in a modular and maintainable application.
 
 ---
 
-## 🛠 Technologies Used
+# Key Features
 
-| Technology | Description |
-|------------|-------------|
-| Java | Core Programming Language |
-| Java Swing | GUI Development |
-| JDBC | Database Connectivity |
-| MySQL | Database Management |
-| OOP | Software Design |
-| Git & GitHub | Version Control |
+* Secure Login Authentication
+* Patient Registration & Management
+* Medical History Records
+* Patient Assessment Module
+* Emergency Response Management
+* Complete CRUD Operations
+* Search and Retrieve Patient Records
+* MySQL Database Integration
+* Modular Java Swing Interface
+* Clean DAO-Based Architecture
 
 ---
 
-## 📂 Project Structure
+# Technology Stack
+
+| Category              | Technologies                      |
+| --------------------- | --------------------------------- |
+| Programming Language  | Java 17                           |
+| GUI Framework         | Java Swing                        |
+| Database              | MySQL                             |
+| Database Connectivity | JDBC                              |
+| Architecture          | DAO Pattern                       |
+| Programming Paradigm  | Object-Oriented Programming (OOP) |
+| Version Control       | Git & GitHub                      |
+
+---
+
+# Software Architecture
+
+The project is organised using a layered architecture to improve readability, scalability, and maintainability.
 
 ```
 Ambulance-Report-System
 │
-├── auth
-├── dao
-├── daoimpl
-├── db
-├── gui
-├── main
-├── model
+├── auth          # Authentication
+├── dao           # DAO Interfaces
+├── daoimpl       # DAO Implementations
+├── db            # Database Connection
+├── gui           # Swing User Interface
+├── model         # Entity Classes
+├── main          # Application Entry Point
 │
 ├── mysql-connector-j-9.6.0.jar
-│
-│
 └── README.md
 ```
 
 ---
 
+# System Modules
 
-
-
-
+* Authentication
+* Patient Management
+* Medical History
+* Patient Assessment
+* Emergency Response
+* Database Management
 
 ---
 
-## ⚙️ Installation
+# Project Highlights
 
-### Clone the Repository
+This project demonstrates practical experience with:
+
+* Object-Oriented Programming
+* Layered Software Architecture
+* DAO Design Pattern
+* Java Swing GUI Development
+* JDBC Connectivity
+* Relational Database Design
+* SQL CRUD Operations
+* Modular Code Organisation
+* Exception Handling
+* Database Integration
+
+---
+
+# Installation
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Ambulance-Report-System.git
+git clone https://github.com/yashfamustafa/Ambulance-Report-System.git
 ```
-
-### Open the Project
-
-Open the project using:
-
-- IntelliJ IDEA
-- Eclipse
-- NetBeans
 
 ---
 
-### Import Database
+## Configure Database
 
-Create a MySQL database:
+Create a MySQL database.
 
 ```sql
 CREATE DATABASE ambulance;
 ```
 
-Import the provided SQL file into the database.
+Import the provided SQL file.
 
 ---
 
-### Configure Database Connection
+## Configure JDBC
 
-Update your database credentials inside your DB connection class.
-
-Example:
+Update your database credentials.
 
 ```java
 String url = "jdbc:mysql://localhost:3306/ambulance";
@@ -127,105 +133,106 @@ String password = "your_password";
 
 ---
 
-### Add JDBC Driver
+## Add MySQL Connector
 
-Include the MySQL Connector JAR file in your project libraries.
-
----
-
-### Run the Application
-
-Run the main Java class to launch the application.
+Add the MySQL Connector JAR to the project's build path.
 
 ---
 
-## 🗃 Database Modules
+## Run
 
-- Patient Information
-- Medical History
-- Assessment
-- Emergency Response
+Execute the `Main` class to launch the application.
 
 ---
 
-## 🎯 Learning Outcomes
+# Screenshots
 
-This project helped me improve my skills in:
+> Screenshots of the Login Screen, Dashboard, Patient Management, Assessment Module, and Emergency Response Module can be added here.
 
-- Java Programming
-- Java Swing
-- JDBC
-- MySQL
-- CRUD Operations
-- DAO Pattern
-- GUI Design
-- Git & GitHub
-- Software Engineering Principles
-
----
-## 📑 Project Presentation
-
-A detailed presentation describing the project's objectives, system architecture, database design, implementation, modules, and future enhancements is included in this repository.
-
-### 📥 View or Download
-
-👉 **[📄 Ambulance Report System Presentation](docs/Ambulance_Report_System_Presentation.pptx)**
-
-### Presentation Includes
-
-- 🎯 Project Objectives
-- ❗ Problem Statement
-- 💡 Proposed Solution
-- 🏗️ System Architecture
-- 🗄️ Database Design
-- 📦 Module Overview
-- 🖥️ GUI Screenshots
-- 🛠️ Technologies Used
-- 🧪 Testing
-- 🚀 Future Scope
-- ✅ Conclusion
-## 🚀 Future Improvements
-
-- PDF Report Generation
-- User Roles (Admin/Staff)
-- Advanced Search Filters
-- Data Validation
-- Dashboard Analytics
-- Appointment Scheduling
-- Cloud Database Support
-- Responsive Modern UI
+```
+screenshots/
+    login.png
+    dashboard.png
+    patient.png
+    assessment.png
+    response.png
+```
 
 ---
 
-## 🤝 Contributing
+# Project Presentation
 
-Contributions, suggestions, and improvements are welcome.
+The repository includes a presentation covering:
 
-Feel free to fork this repository and submit a pull request.
+* Project Objectives
+* Problem Statement
+* Proposed Solution
+* System Architecture
+* Database Design
+* GUI Design
+* Implementation
+* Testing
+* Future Enhancements
+
+📂 **Presentation**
+
+```
+docs/
+    Ambulance_Report_System_Presentation.pptx
+```
 
 ---
 
-## 👩‍💻 Author
+# Future Enhancements
 
-### **Yashfa Mustafa**
+* Role-Based Access Control
+* PDF Report Generation
+* Dashboard Analytics
+* Appointment Scheduling
+* Cloud Database Support
+* Export to Excel/PDF
+* Advanced Search & Filtering
+* Responsive User Interface
 
-Software Engineering Student
+---
 
-- 💻 Java Developer
-- 🌐 Learning Full-Stack Web Development
-- 🗄 MySQL & Database Design Enthusiast
+# Skills Demonstrated
 
-GitHub:
+* Java Development
+* Software Engineering
+* Database Design
+* JDBC Programming
+* Java Swing
+* SQL
+* CRUD Operations
+* Object-Oriented Design
+* Git & GitHub
+* Problem Solving
+
+---
+
+# Author
+
+### Yashfa Mustafa
+
+Software Engineering Student passionate about building desktop and web applications using modern software engineering principles.
+
+**GitHub**
+
 https://github.com/yashfamustafa
 
 ---
 
-## ⭐ Support
+# Contributing
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
 
 ---
 
-## 📄 License
+# License
 
-This project is developed for educational and learning purposes.
+This project is provided for educational and learning purposes.
+
+---
+
+⭐ If you found this project helpful, consider giving it a star.
