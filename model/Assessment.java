@@ -1,7 +1,7 @@
 package model;
 
 public class Assessment {
-
+    
     private int id;
     private String vitals;
     private String eyes;
