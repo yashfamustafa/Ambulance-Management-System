@@ -8,7 +8,7 @@ import java.sql.*;
 import java.util.*;
 
 public class PatientDAOImpl implements PatientDAO {
-
+    
     @Override
     public void insert(Patient p) {
         try (Connection con = DBConnection.getConnection()) {
